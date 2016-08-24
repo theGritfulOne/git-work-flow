@@ -14,10 +14,12 @@ b. git push -u origin master //syncs master branch to github
 7. git checkout develop //switches to 'develop' branch
 8. git branch //lists all branches in the repository
 9. git checkout -b develop //creates a branch named 'develop' and switches to that branch
-10. git flow init //initialized structured git flow
+10. git flow init //initialized structured git flow, automatically creates develop branch
 
 Hopefully this still uploads
 
 The next lines are added using flow feature
+
 11. git flow feature start "feature name" //creates a new feature in the flow and switches to it
 12. git flow feature finish "feature name" //merges feature to develop, deletes feature and switches to develop
+
