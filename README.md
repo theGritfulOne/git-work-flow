@@ -20,4 +20,4 @@ Hopefully this still uploads
 
 The next lines are added using flow feature
 11. git flow feature start "feature name" //creates a new feature in the flow and switches to it
-12. git flow feature finish "feature name" //merges feature to develop and deletes feature
+12. git flow feature finish "feature name" //merges feature to develop, deletes feature and switches to develop
