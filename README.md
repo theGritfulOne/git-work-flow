@@ -9,9 +9,11 @@ b. git push -u origin master //syncs master branch to github
 2. git status //shows current status of project
 3. git add "filename" //stages edited "filename" for commit
 4. git commit -m "message" //commits changes to branch and adds "message" as commit description
-2. git branch develop //creates a branch named 'develop'
-3. git checkout develop //switches to 'develop' branch
-4. git branch //lists all branches in the repository
-5. git checkout -b develop //creates a branch named 'develop' and switches to that branch
-6.
+5. git commit -am "message" //stages and commits changes directly
+6. git branch develop //creates a branch named 'develop'
+7. git checkout develop //switches to 'develop' branch
+8. git branch //lists all branches in the repository
+9. git checkout -b develop //creates a branch named 'develop' and switches to that branch
+10. git flow init //initialized structured git flow
+
 
