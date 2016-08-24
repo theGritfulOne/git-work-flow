@@ -27,3 +27,5 @@ The next lines are added using flow feature
 14. vim "filename" //allows user to edit files that had been staged for commit, user needs to use git add function again
 
 15. git log --pretty=format:"   " //provides commit details that you want
+
+This line was added at home for testing
