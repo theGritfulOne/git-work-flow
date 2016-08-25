@@ -23,3 +23,7 @@ The next lines are added using flow feature
 11. git flow feature start "feature name" //creates a new feature in the flow and switches to it
 12. git flow feature finish "feature name" //merges feature to develop, deletes feature and switches to develop
 
+13. git clone https://github.com/libgit2/libgit2 mylibgit //creates a copy of an existing repository, target directory is mylibgit
+14. vim "filename" //allows user to edit files that had been staged for commit, user needs to use git add function again
+
+15. git log --pretty=format:"   " //provides commit details that you want
